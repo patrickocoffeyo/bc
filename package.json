@@ -1,0 +1,17 @@
+{
+  "name": "bc",
+  "version": "1.0.0",
+  "description": "Simple blockchain implementation in JS",
+  "main": "index.js",
+  "repository": "git@github.com:patrickocoffeyo/bc.git",
+  "author": "Patrick Coffey <patrickcoffey48@gmail.com>",
+  "license": "GPL-3.0",
+  "private": false,
+  "scripts": {
+    "make-chain": "node ./index.js"
+  },
+  "dependencies": {
+    "object-hash": "^1.3.1",
+    "ramda": "^0.26.1"
+  }
+}
